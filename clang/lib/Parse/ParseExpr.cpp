@@ -16,7 +16,7 @@
 /// as the 'cast-expression' production.  Everything else is either a binary
 /// operator (e.g. '/') or a ternary operator ("?:").  The unary leaves are
 /// handled by ParseCastExpression, the higher level pieces are handled by
-/// ParseBinaryExpression.
+/// ParseRHSOfBinaryExpression.
 ///
 //===----------------------------------------------------------------------===//
 
